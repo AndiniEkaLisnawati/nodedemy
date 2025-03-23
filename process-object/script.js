@@ -2,7 +2,9 @@ const initialMemoryUsage = process.memoryUsage().heapUsed;
 const yourName = process.argv[2];
 const environment = process.env.NODE_ENV;
 
-for(let i = 0; i < 1000; i++);
+for(let i = 0; i < 1000; i++) {
+    let obj = {index : i};
+}
 
 const currentMemoryUsage = process.memoryUsage().heapUsed;
 
