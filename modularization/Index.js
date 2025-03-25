@@ -6,6 +6,7 @@
 
 const Tiger = require('./Tiger');
 const Wolf = require('./Wolf');
+//test
 
 const fighting = (tiger, wolf) => {
     if (tiger.strength > wolf.strength) {
